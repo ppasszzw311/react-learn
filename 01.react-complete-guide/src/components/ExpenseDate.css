@@ -1,0 +1,35 @@
+.calender {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  color: white;
+}
+
+.calender__month {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 14px;
+  height: 18px;
+}
+
+.calender__year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+  font-size: 12px;
+  height: 18px;
+}
+
+.calender__day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 25px;
+  margin-bottom: 0.5rem;
+}
